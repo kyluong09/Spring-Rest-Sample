@@ -1,7 +1,6 @@
-package com.spring.boot.demo;
+package com.spring.boot.demo.database;
 
 import com.spring.boot.demo.entity.User;
-import com.spring.boot.demo.exception.NotFoundException;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

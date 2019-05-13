@@ -1,17 +1,14 @@
 package com.spring.boot.demo.rest;
 
 
-import com.spring.boot.demo.UserDataset;
+import com.spring.boot.demo.database.UserDataset;
 import com.spring.boot.demo.entity.User;
 import com.spring.boot.demo.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
