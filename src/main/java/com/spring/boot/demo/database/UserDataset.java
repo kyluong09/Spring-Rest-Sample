@@ -47,4 +47,15 @@ public class UserDataset {
 
 
     }
+
+
+    /**
+     * Delete user by id
+     * @param id
+     */
+    public void deleteUser(int id ){
+        // Get user
+        User user = dataset.stream().filter(u -> u.getId() == id).findFirst().get();
+        dataset.remove(user);
+    }
 }
